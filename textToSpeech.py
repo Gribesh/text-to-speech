@@ -1,5 +1,6 @@
 import pyttsx3
 
+data = input("Enter text")
 engine = pyttsx3.init()
-engine.say("Gribesh")
+engine.say(data)
 engine.runAndWait()
